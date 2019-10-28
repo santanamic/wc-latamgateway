@@ -1,0 +1,41 @@
+{
+    "name": "santanamic/wc-latamgateway",
+    "version": "1.0.0",
+    "type": "wordpress-plugin",
+    "description": "Take payments on CredtCard, Deposit and Boleto  using Latam Gateway.",
+    "keywords": [
+        "WooCommerce",
+        "Cryptocurrencies",
+        "Bitcoin ",
+        "Altcoin",
+        "Mindexcoin",
+        "Easticoin",
+        "Checkout",
+        "Payments",
+        "Gateway",
+        "LatamGateway"
+    ],
+    "homepage": "https://github.com/santanamic/php-latamgateway-sdk",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "WILLIAN SANTANA",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.6",
+		"santanamic/php-latamgateway-sdk" : "1.0.0"
+    },
+    "autoload": {
+        "classmap": [ "includes"],
+		"files": [
+			"includes/functions/wc-latamgateway-admin.php",
+			"includes/functions/wc-latamgateway-plugin.php"						
+		]
+    },
+    "scripts": {
+        "docs": "docsify serve docs"
+    }
+}
+

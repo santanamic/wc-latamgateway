@@ -1,0 +1,357 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Latam Gateway for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-27 19:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.0.6"
+
+#: includes/class-wc-latamgateway-environment.php:156
+#: includes/class-wc-latamgateway-environment.php:169
+#: includes/class-wc-latamgateway.php:72 includes/class-wc-latamgateway.php:85
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/class-wc-latamgateway.php:222
+msgid "Birthdate"
+msgstr ""
+
+#: templates/general-payment-method.php:12
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:121
+msgid "Credit Card"
+msgstr ""
+
+#: templates/general-payment-method.php:16
+msgid "Banking Boleto"
+msgstr ""
+
+#: templates/general-payment-method.php:20
+msgid "Bank Deposit"
+msgstr ""
+
+#: templates/general-payment-method.php:28
+msgid ""
+"By clicking \"Place Order\" you will be taken to the secure Latam Gateway "
+"environment to finalize the payment, where you can add card details and "
+"choose the number of installments."
+msgstr ""
+
+#: templates/general-payment-method.php:41
+msgid ""
+"Select a bank and After click in \"Place order\", you will have access to "
+"our bank details so that you can pay safely."
+msgstr ""
+
+#: templates/general-payment-method.php:43
+msgid ""
+"The store has no registered banks. Please contact the webiste administrator."
+msgstr ""
+
+#: templates/general-payment-method.php:54
+msgid "The order will be confirmed only after the payment approval."
+msgstr ""
+
+#: templates/general-payment-method.php:55
+msgid ""
+"After clicking \"Place order\" you will have access to banking ticket which "
+"you can print and pay in your internet banking or in a lottery retailer."
+msgstr ""
+
+#: templates/general-payment-method.php:60
+msgid "This purchase is being made in Brazil"
+msgstr ""
+
+#: templates/general-payment-method.php:60
+msgid "Brazilian flag"
+msgstr ""
+
+#: includes/functions/wc-latamgateway-admin.php:63
+msgid "Settings"
+msgstr ""
+
+#: includes/functions/wc-latamgateway-admin.php:64
+msgid "Support"
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:11
+#: includes/views/html-notice-credential-missing.php:16
+#: includes/views/html-notice-credential-missing.php:21
+#: includes/views/html-notice-credential-missing.php:26
+#: includes/views/html-notice-currency-not-supported.php:12
+msgid "Latam Gateway Disabled"
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:11
+msgid "You must enter your \"Latam Gateway\" login email in the settings."
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:16
+msgid "You must enter your \"Latam Gateway\" login passsword in the settings."
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:21
+msgid "You must enter your account key in the settings."
+msgstr ""
+
+#: includes/views/html-notice-credential-missing.php:26
+msgid "You must enter your sandbox account key in the settings."
+msgstr ""
+
+#: includes/views/html-notice-currency-not-supported.php:12
+msgid "Currency not supported. Works only with Brazilian Real."
+msgstr ""
+
+#. Name of the plugin
+#: includes/views/html-notice-missing-plugins.php:13
+msgid "Latam Gateway for WooCommerce"
+msgstr ""
+
+#: includes/views/html-notice-missing-plugins.php:13
+msgid ""
+"depends on one plugin to work. Please install and enable the following "
+"plugin:"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:32
+msgid "Latam Gateway"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:33
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:75
+msgid "Pay by credit card, deposit or boleto using Latam Gateway."
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:57
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:58
+msgid "Check to enable this form of payment."
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:64
+msgid "Checkout Title"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:66
+msgid "This controls the title the user sees during checkout."
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:71
+msgid "Checkout Description"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:73
+msgid "This controls the description the user sees during checkout."
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:78
+msgid "Integration Settings"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:80
+msgid "Enter your credentials to process payments using Latam Gateway"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:83
+msgid "Email"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:85
+msgid "Latam Gateway Registration Email"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:90
+msgid "Password"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:92
+msgid "Latam Gateway Registration Password"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:96
+msgid "Sandbox Environment"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:98
+msgid "Enable the Latam Gateway Testing"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:99
+msgid "Latam Gateway Sandbox can be used to test the payments"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:103
+msgid "Account Key"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:105
+msgid "Enter your account key. Contact Latam Gateway Support for Account Key"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:112
+msgid ""
+"Enter your account key for sandbox. Contact Latam Gateway Support for "
+"Account Key"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:116
+msgid "Payment Methods"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:118
+msgid "Select active payment methods at checkout"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:123
+msgid "Enable Credit Card for Redirect Checkout"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:127
+msgid "Deposit"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:129
+msgid "Enable Deposit for Checkout"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:133
+msgid "Boleto"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:135
+msgid "Enable Boleto for Transparente Checkout"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:139
+msgid "Additional Fields"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:141
+msgid "Latam Gateway plugin needs some additional fields in checkout."
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:144
+msgid "Enabled Birth Field"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:146
+msgid "Enable Birth Field in Checkout"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:150
+msgid "Required Birth Field"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:152
+msgid "Makes the Birth Field mandatory"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:156
+msgid "Gateway Testing"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:161
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:163
+msgid "Enable Log"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:165
+#, php-format
+msgid ""
+"Logs plugin events through the <code>% s </code> file. Note: This may record "
+"personal information. We recommend using this for debugging purposes only "
+"and to delete these records after finalization."
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:182
+#, php-format
+msgid "Exception when calling list banks:\\r\\n %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:220
+#, php-format
+msgid "Payment process log for order ID: %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:223
+#, php-format
+msgid "Payment process, get data request: %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:248
+#, php-format
+msgid "Payment URL retrieved: %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:336
+#, php-format
+msgid "Payment process get transaction data: %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:339
+#, php-format
+msgid "Payment debug info for order: %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:342
+#, php-format
+msgid "Payment debug info for order itens: %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:345
+#, php-format
+msgid "Payment debug info for order customer: %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:353
+msgid ""
+"The buyer has initiated a transaction, but so far Latam Gateway has not "
+"received any payment information."
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:364
+msgid "Error getting payment URL. Try again!"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:387
+#, php-format
+msgid "Postback Headers:\\r\\n %s"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:410
+msgid "LatamGateway Gateway received a valid notification URL"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:432
+msgid "A status update has been received. The new order status is: processing"
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:435
+msgid "Payment completed"
+msgstr ""
+
+#. Description of the plugin
+msgid "Take payments on CredtCard, Deposit and Boleto  using Latam Gateway."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://github.com/santanamic/wc-latamgateway"
+msgstr ""
+
+#. Author of the plugin
+msgid "WILLIAN SANTANA"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/santanamic/"
+msgstr ""

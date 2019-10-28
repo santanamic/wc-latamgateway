@@ -1,0 +1,17 @@
+.gitattributes export-ignore
+.gitmodules export-ignore
+.gitignore export-ignore
+.github export-ignore
+bin export-ignore
+README.md export-ignore
+composer.json export-ignore
+.eslintrc export-ignore
+.eslintignore export-ignore
+.tx export-ignore
+.editorconfig export-ignore
+.jshintrc export-ignore
+.editorconfig export-ignore
+.babelrc export-ignore
+docs export-ignore
+.wordpress_org_assets export-ignore
+.psd export-ignore

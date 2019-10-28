@@ -1,0 +1,180 @@
+/* Payment form */
+#latamgateway-payment-form {
+	display: none;
+}
+
+#latamgateway-payment-methods:before,
+#latamgateway-payment-methods:after,
+#latamgateway-deposit-form ul:before,
+#latamgateway-deposit-form ul:after {
+	content: " ";
+	display: table;
+}
+
+#latamgateway-payment-methods:after,
+#latamgateway-deposit-form ul:after {
+	clear: both;
+}
+
+#latamgateway-payment-methods,
+#latamgateway-deposit-form ul {
+	list-style: none;
+	margin: 0 0 10px;
+	padding: 0;
+	*zoom: 1;
+}
+
+#latamgateway-payment-methods input[type="radio"],
+#latamgateway-deposit-form ul input[type="radio"] {
+	display: none;
+}
+
+/* Payment methods */
+.woocommerce #payment ul.payment_methods li #latamgateway-payment-methods li,
+.woocommerce-page #payment ul.payment_methods li #latamgateway-payment-methods li {
+	border-color: transparent transparent #bbb;
+	/*border-radius: 4px 4px 0 0;
+	-webkit-border-radius: 4px 4px 0 0;*/
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.woocommerce #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront #latamgateway-payment-methods li,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront #latamgateway-payment-methods li {
+	padding: 5px !important;
+}
+
+.woocommerce #payment ul.payment_methods li #latamgateway-payment-methods label,
+.woocommerce-page #payment ul.payment_methods li #latamgateway-payment-methods label {
+	cursor: pointer;
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px 10px;
+}
+
+/* Bank transfer items */
+.woocommerce #payment ul.payment_methods li #latamgateway-payment-methods li.active,
+.woocommerce-page #payment ul.payment_methods li #latamgateway-payment-methods li.active {
+	border-color: #bbb #bbb transparent;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.woocommerce #payment ul.payment_methods li #latamgateway-deposit-form p,
+.woocommerce-page #payment ul.payment_methods li #latamgateway-deposit-form p {
+	margin-bottom: .5em;
+}
+
+.woocommerce #payment ul.payment_methods li #latamgateway-deposit-form li,
+.woocommerce-page #payment ul.payment_methods li #latamgateway-deposit-form li {
+    border: none;
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 33%;
+    min-width: 80px;
+    max-width: 100px;
+    filter: grayscale(1);
+    opacity: 0.4;
+}
+
+.woocommerce #payment ul.payment_methods li #latamgateway-deposit-form li.active,
+.woocommerce-page #payment ul.payment_methods li #latamgateway-deposit-form li.active {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.woocommerce #payment ul.payment_methods li #latamgateway-deposit-form label,
+.woocommerce-page #payment ul.payment_methods li #latamgateway-deposit-form label {
+	cursor: pointer;
+	display: block;
+	font-weight: bold;
+	margin: 0 0 0;
+	padding: 5px 10px;
+	text-align: center;
+	line-height: 0;
+}
+
+.woocommerce #payment ul.payment_methods li #latamgateway-deposit-form label > span, .woocommerce-page #payment ul.payment_methods li #latamgateway-deposit-form label > span {
+    line-height: 1.5;
+    display: block;
+    margin-top: 5px;
+    clear: both;
+}
+
+.woocommerce #payment ul.payment_methods li #latamgateway-deposit-form img,
+.woocommerce-page #payment ul.payment_methods li #latamgateway-deposit-form img {
+	position: relative;
+	display: block;
+	height: 51px;
+	margin: 0 auto;
+	width: auto;
+	max-height: none;
+	min-width: auto;
+	float: none;
+}
+
+/* Banking ticket */
+#latamgateway-icon-ticket {
+	background: transparent url("../img/boleto.jpg") no-repeat top right;
+	display: block;
+	float: left;
+	height: 51px;
+	margin: 0 10px 5px 0;
+	width: 51px;
+}
+
+.woocommerce #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront p#latamgateway-card-holder-name-field,
+.woocommerce #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront p#latamgateway-card-number-field,
+.woocommerce #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront p#latamgateway-card-installments-field,
+.woocommerce #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront p#latamgateway-card-holder-cpf-field,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront p#latamgateway-card-holder-name-field,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront p#latamgateway-card-number-field,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront p#latamgateway-card-installments-field,
+.woocommerce-page #payment ul.payment_methods li .woocommerce-latamgateway-form-storefront p#latamgateway-card-holder-cpf-field {
+	float: none;
+	width: 100%;
+}
+
+.woocommerce-latamgateway-form-storefront .woocommerce-error ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 500px) {
+	.woocommerce #payment ul.payment_methods li #latamgateway-payment-methods li,
+	.woocommerce-page #payment ul.payment_methods li #latamgateway-payment-methods li {
+		border: none;
+		-webkit-border-radius: 0;
+		border-radius: 0;
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.woocommerce #payment ul.payment_methods li #latamgateway-payment-methods li.active,
+	.woocommerce-page #payment ul.payment_methods li #latamgateway-payment-methods li.active {
+		border: none;
+	}
+
+	#latamgateway-payment-methods input[type="radio"] {
+		display: inline;
+	}
+
+	.woocommerce #payment ul.payment_methods li #latamgateway-credit-card-form p.form-row.form-row-first,
+	.woocommerce #payment ul.payment_methods li #latamgateway-credit-card-form p.form-row.form-row-last,
+	.woocommerce-page #payment ul.payment_methods li #latamgateway-credit-card-form p.form-row.form-row-first,
+	.woocommerce-page #payment ul.payment_methods li #latamgateway-credit-card-form p.form-row.form-row-last {
+		float: none;
+		width: 96%;
+	}
+}

@@ -1,0 +1,28 @@
+{
+  "name": "compralo/woocommerce-plugin",
+  "version": "1.0.1",
+  "description": "Take payments on your store using Cryptocurrencies.",
+  "main": "./",
+  "devDependencies" : {
+    "docsify-cli": "^4.3.0"
+  },
+  "scripts": {
+    "docs": "npx docsify serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/compralo/woocommerce-plugin"
+  },
+  "author": [
+    {
+		"name": "WILLIAN SANTANA",
+		"email": "williansantanamic@gmail.com",
+		"url": "https://github.com/santanamic"
+    } 
+  ],
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/compralo/woocommerce-plugin"
+  },
+  "homepage": "https://github.com/compralo/woocommerce-plugin"
+}
