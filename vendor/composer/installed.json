@@ -1,0 +1,52 @@
+[
+    {
+        "name": "santanamic/php-latamgateway-sdk",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/santanamic/php-latamgateway-sdk.git",
+            "reference": "bfee3f13e62a4c60ec7f59f5c5ae1639563231ad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/santanamic/php-latamgateway-sdk/zipball/bfee3f13e62a4c60ec7f59f5c5ae1639563231ad",
+            "reference": "bfee3f13e62a4c60ec7f59f5c5ae1639563231ad",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.15"
+        },
+        "time": "2019-10-27T16:34:36+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "LatamGateway\\": "src/LatamGateway"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "PHP SDK for integration with the Latam Gateway Payment API",
+        "keywords": [
+            "Latam Gateway",
+            "LatamGateway",
+            "api",
+            "boleto",
+            "credtcard",
+            "deposit",
+            "e-commerce",
+            "payments",
+            "php",
+            "sdk"
+        ]
+    }
+]
