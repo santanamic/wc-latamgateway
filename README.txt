@@ -1,4 +1,4 @@
-=== Latam Gateway for WooCommerce ===
+﻿=== Latam Gateway for WooCommerce ===
 Contributors: williansantana
 Tags: CredtCard, Deposit, Boleto, Latam Gateway, Price, Sale, Gateway, Buy
 Requires at Least: 4.8
@@ -75,5 +75,5 @@ You should have received a copy of the GNU General Public License along with Nom
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.0 =
 * Official release.
