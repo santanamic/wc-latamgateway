@@ -88,6 +88,11 @@ if ( ! class_exists( 'Wc_LatamGateway_Api' ) ) {
 			return $this->_order_request;
 		}
 		
+		public function enable_production(bool $is_enabled){
+			$this->_is_production = $is_enabled;
+			return $this;
+		}
+
 		public function set_credential($email, $passsword, $account_key){
 			$this->_access->setEmail($email);
 			$this->_access->setPassword($passsword);

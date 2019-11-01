@@ -68,13 +68,15 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway' ) ) {
 	 */
 		private function init_api() 
 		{
-		
+
+		$this->api = wc_latamgateway()->api();
+
 		if ( $this->is_sandbox != 'yes' ) {
 			$account_key = $this->get_option( 'account_key' );
+			$this->api->enable_production(true);
 		}else {
 			$account_key = $this->get_option( 'account_key_sandbox' );
 		}
-		$this->api = wc_latamgateway()->api();
 		$this->api->set_credential($this->get_option( 'email' ), $this->get_option( 'passsword' ), $account_key);
 		
 		} 
