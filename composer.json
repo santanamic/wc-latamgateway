@@ -4,16 +4,15 @@
     "type": "wordpress-plugin",
     "description": "Take payments on CredtCard, Deposit and Boleto  using Latam Gateway.",
     "keywords": [
-        "WooCommerce",
-        "Cryptocurrencies",
-        "Bitcoin ",
-        "Altcoin",
-        "Mindexcoin",
-        "Easticoin",
-        "Checkout",
-        "Payments",
-        "Gateway",
-        "LatamGateway"
+		"Latam Gateway",
+		"LatamGateway",
+		"plugin",
+		"e-commerce",
+		"payments",
+		"credtcard",
+		"boleto",
+		"deposit",
+		"Brazil"
     ],
     "homepage": "https://github.com/santanamic/php-latamgateway-sdk",
     "license": "GPLv2",
@@ -24,7 +23,7 @@
         }
     ],
     "require": {
-        "php" : ">=5.6",
+        "php" : ">=7.0",
 		"santanamic/php-latamgateway-sdk" : "1.0.0"
     },
     "autoload": {

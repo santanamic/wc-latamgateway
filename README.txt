@@ -1,10 +1,10 @@
 ﻿=== Latam Gateway for WooCommerce ===
 Contributors: williansantana
 Tags: CredtCard, Deposit, Boleto, Latam Gateway, Price, Sale, Gateway, Buy
-Requires at Least: 4.8
-Tested up to: 5.2.0
-Stable tag: 1.0.1
-Requires PHP: 5.6
+Requires at Least: 4.9
+Tested up to: 5.3.0
+Stable tag: 1.0.0
+Requires PHP: 7.0
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
