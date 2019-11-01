@@ -30,7 +30,7 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway_Method_General' ) ) {
         // Define admin set variables.
         $this->id                 = 'wc_latamgateway';
         $this->method_title       = __( 'Latam Gateway', 'wc-latamgateway' );
-        $this->method_description = __( 'Pay by credit card, deposit or boleto using Latam Gateway.', 'wc-latamgateway' );
+        $this->method_description = __( 'Receive by credit card, deposit or boleto using Latam Gateway.', 'wc-latamgateway' );
         $this->icon               = plugins_url( 'assets/public/img/logo_horizontal.png', __FILE__ );
         $this->has_fields         = true;
         $this->creditcard         = $this->get_option( 'creditcard' );
@@ -181,6 +181,7 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway_Method_General' ) ) {
     } catch (Exception $e) {
         Wc_LatamGateway_Logger::log( sprintf( __( 'Exception when calling list banks:\r\n %s', 
                 'wc-latamgateway' ), $e->getMessage() ) );
+		return;
     }
     
     if ( $description ) {
@@ -197,7 +198,7 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway_Method_General' ) ) {
             'tc_ticket'        => $this->boleto,
             'available_banks'  => $banks->getAvailableBanks(),
             'flag'             => plugins_url( 'assets/public/img/brazilian-flag.png', __FILE__ ),
-        ), 'woocommerce/pagseguro/',  WC_LATAMGATEWAY_PATH . 'templates/'
+        ), 'woocommerce/latamgateway/',  WC_LATAMGATEWAY_PATH . 'templates/'
     );
     
     }
