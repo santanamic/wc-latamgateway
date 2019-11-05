@@ -36,6 +36,7 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway_Method_General' ) ) {
         $this->creditcard         = $this->get_option( 'creditcard' );
         $this->deposit            = $this->get_option( 'deposit' );
         $this->boleto             = $this->get_option( 'boleto' );
+        $this->status_paid        = $this->get_option( 'status_paid' );
 		
         parent::init_gateway();
 		
@@ -152,6 +153,21 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway_Method_General' ) ) {
                 'label'   => __( 'Makes the Birth Field mandatory', 'wc-latamgateway' ),
                 'default' => 'yes',
             ),
+             'order_status' => array(
+                'title'       => __( 'Order status', 'wc-latamgateway' ),
+                'type'        => 'title',
+                'description' =>  __( 'Configure gateway behavior.', 'wc-latamgateway' ),
+            ),
+			'status_paid' => array(
+				'title'   => __( 'Paid Orders', 'wc-latamgateway' ),
+				'type'    => 'select',
+				'default' => 'processing',
+                'description'   => __( 'Paid orders will change to this status', 'wc-latamgateway' ),
+				'options' => array(
+					'processing' => __( 'Processing', 'wc-latamgateway' ),
+					'completed'   => __( 'Completed', 'cielo-woocommerce' ),
+				),
+			),
             'testing'              => array(
                 'title'       => __( 'Gateway Testing', 'wc-latamgateway' ),
                 'type'        => 'title',
@@ -422,25 +438,37 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway_Method_General' ) ) {
 				if( $order_latam_id === $postback_latam_id ) :
 				
 					switch ( $postback_status ) {
-						case 'paid':							
+						case 'paid':
 							if ( 'pending' == $order_status 
 								|| 'on-hold' == $order_status 
 								|| 'created' == $order_status 
 								|| 'cancelled' == $order_status ) :
 
-								//wc_reduce_stock_levels( $order_id );
+								$order->add_order_note( __( 'A status update has been received. The new order status is: ' . $this->status_paid, 'wc-latamgateway' ) );
+								$order->update_status( $this->status_paid, __( 'Payment completed', 'wc-latamgateway' ) );
+							endif;
+						break;
+						case 'canceled':	
+							if ( 'refunded' != $order_status ) :
+						
+								$order->add_order_note( __( 'A status update has been received. The new order status is: cancelled', 'wc-latamgateway' ) );
+								$order->update_status('cancelled', __( 'Payment Cancelled', 'wc-latamgateway' ));
+							endif;
+						break;
+						case 'expired':							
+							if ( 'pending' == $order_status 
+								|| 'on-hold' == $order_status 
+								|| 'created' == $order_status ) :
 
-								$order->add_order_note( __( 'A status update has been received. The new order status is: processing', 'wc-latamgateway' ) );
-								//$order->add_order_note( __( 'Inventory levels have been reduced' ) );
-
-								$order->update_status('processing', __( 'Payment completed', 'wc-latamgateway' ));
+								$order->add_order_note( __( 'A status update has been received. The new order status is: cancelled', 'wc-latamgateway' ) );
+								$order->update_status('cancelled', __( 'Payment completed', 'wc-latamgateway' ));
 							endif;
 						break;
 					}
 				
 				endif;
 				
-            endif;
+            endif; 
 
         endif;
 		
