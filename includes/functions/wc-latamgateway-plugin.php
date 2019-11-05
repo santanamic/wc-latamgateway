@@ -10,7 +10,6 @@
  * @subpackage wc-latamgateway/includes/functions
  * @author     AQUARELA - WILLIAN SANTANA <williansantanamic@gmail.com>
  */
-
 if ( ! defined( 'ABSPATH' ) ) {
 	die;
 }
@@ -42,7 +41,7 @@ if ( ! function_exists( 'wc_latamgateway_plugin_deactivate' ) ) {
 	{
 
 	}
-	
+
 }
 
 if ( ! function_exists( 'wc_latamgateway_plugin_i18n' ) ) {
@@ -57,9 +56,9 @@ if ( ! function_exists( 'wc_latamgateway_plugin_i18n' ) ) {
 	{
 
 	load_plugin_textdomain( 'wc-latamgateway', false, WC_LATAMGATEWAY_SLUG . '/languages/' );
-	
+
 	}
-	
+
 }
 
 if ( ! function_exists( 'wc_latamgateway' ) ) {
@@ -72,11 +71,11 @@ if ( ! function_exists( 'wc_latamgateway' ) ) {
 	 */
 	function wc_latamgateway() 
 	{
-		
+
 	$plugin = Wc_LatamGateway::instance();
-		
+
 	return $plugin;
-	
+
 	}
 
 }

@@ -12,7 +12,6 @@
  * Text Domain:       wc-latamgateway
  * Domain Path:       /languages
  */
-
 if ( ! defined( 'ABSPATH' ) ) {
 	die;
 }
@@ -28,19 +27,19 @@ define( 'WC_LATAMGATEWAY_URI', trailingslashit( plugin_dir_url( __FILE__ ) ) );
 
 require_once( WC_LATAMGATEWAY_PATH . 'vendor/autoload.php' );
 
-/**
+/*
  * The code that runs during plugin activation and The code that runs during plugin deactivation.
  */
 register_activation_hook( __FILE__, 'wc_latamgateway_plugin_activate' );
 register_deactivation_hook( __FILE__, 'wc_latamgateway_plugin_deactivate' );
 
-/**
+/*
  * Initial hook for plugin run and Initial hook for plugin internationalization.
  */
 add_action( 'plugins_loaded', 'wc_latamgateway' );
 add_action( 'plugins_loaded', 'wc_latamgateway_plugin_i18n' );
 
-/**
+/*
  * Initial hook for add admin scripts and styles.
  */
 add_filter( 'plugin_action_links_' . WC_LATAMGATEWAY_BASENAME, 'wc_latamgateway_admin_links' );

@@ -26,6 +26,9 @@
         "php" : ">=7.0",
 		"santanamic/php-latamgateway-sdk" : "1.0.0"
     },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.15"
+    },
     "autoload": {
         "classmap": [ "includes"],
 		"files": [
@@ -34,7 +37,8 @@
 		]
     },
     "scripts": {
-        "docs": "docsify serve docs"
+		"lint": "php-cs-fixer fix --diff --dry-run",
+        "fix": "php-cs-fixer fix"
     }
 }
 
