@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<?php if( ! empty($available_banks) && is_array($available_banks) ): ?>
 			<ul>
 				<?php foreach($available_banks as $bank): ?>
-					<li><label><input type="radio" name="latamgateway_bank_deposit" value="<?php echo $bank['slug']; ?>" /><img src="<?php echo $bank['asset_url']; ?>"/><span><?php echo $bank['name']; ?></span></label></li>
+					<li><label><input type="radio" name="latamgateway_bank_deposit" value="<?php echo $bank['slug']; ?>" /><img src="<?php echo $bank['asset_url'] ?? $bank['logo_url']; ?>"/><span><?php echo $bank['name']; ?></span></label></li>
 				<?php endforeach; ?>
 			</ul>
 			<p><?php _e( 'Select a bank and After click in "Place order", you will have access to our bank details so that you can pay safely.', 'wc-latamgateway' ); ?></p>				
