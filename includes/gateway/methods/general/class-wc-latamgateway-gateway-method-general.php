@@ -163,7 +163,7 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway_Method_General' ) ) {
                 'description' => __( 'Paid orders will change to this status', 'wc-latamgateway' ),
 				'options' => [
 					'processing' => __( 'Processing', 'wc-latamgateway' ),
-					'completed' => __( 'Completed', 'cielo-woocommerce' ),
+					'completed' => __( 'Completed', 'wc-latamgateway' ),
 				],
 			],
             'testing' => [
@@ -284,9 +284,9 @@ if ( ! class_exists( 'Wc_LatamGateway_Gateway_Method_General' ) ) {
 			$customer_name = $order->get_billing_first_name() . ' ' . $order->get_billing_last_name();
             $customer_email = $order->get_billing_email();
             $customer_document = str_replace([',', '.', '-', '/'], '', $order->get_meta('_billing_cpf'));
-            $person_type = $order->get_meta('_billing_persontype');
+            $person_type = $order->get_meta('_billing_persontype') ?: '1';
             $company_document = str_replace([',', '.', '-', '/'], '', $order->get_meta('_billing_cnpj'));
-			$document = $person_type == '1' ? $customer_document : $company_document;
+			$document = ( $person_type == '1' ) ? $customer_document : $company_document;
             $customer_phone = str_replace(['(', ')', '-', '+', ' '], '', $order->get_billing_phone());
             $order_postback = WC()->api_request_url( $this->id );
             $order_backurl = $order->get_checkout_order_received_url();    
