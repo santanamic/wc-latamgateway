@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Latam Gateway for WooCommerce\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-27 19:10+0000\n"
-"PO-Revision-Date: 2019-10-27 20:30+0000\n"
-"Last-Translator: sandbox <admin@admin.com>\n"
+"POT-Creation-Date: 2019-12-10 18:10+0000\n"
+"PO-Revision-Date: 2019-12-10 18:10+0000\n"
+"Last-Translator: sandbox <willian_santana@live.com>\n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
@@ -12,20 +12,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
-"X-Loco-Version: 2.3.1; wp-5.0.6"
+"X-Loco-Version: 2.3.1; wp-5.0.7"
 
-#: includes/class-wc-latamgateway-environment.php:156
-#: includes/class-wc-latamgateway-environment.php:169
-#: includes/class-wc-latamgateway.php:72 includes/class-wc-latamgateway.php:85
+#: includes/class-wc-latamgateway-environment.php:161
+#: includes/class-wc-latamgateway-environment.php:174
+#: includes/class-wc-latamgateway.php:71 includes/class-wc-latamgateway.php:84
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 
-#: includes/class-wc-latamgateway.php:222
+#: includes/class-wc-latamgateway.php:220
 msgid "Birthdate"
 msgstr "Data de nascimento"
 
 #: templates/general-payment-method.php:12
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:121
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:120
 msgid "Credit Card"
 msgstr "Cartão de Crédito"
 
@@ -82,11 +82,11 @@ msgstr "Esta compra está sendo feita no Brasil"
 msgid "Brazilian flag"
 msgstr ""
 
-#: includes/functions/wc-latamgateway-admin.php:63
+#: includes/functions/wc-latamgateway-admin.php:62
 msgid "Settings"
 msgstr "Configurações"
 
-#: includes/functions/wc-latamgateway-admin.php:64
+#: includes/functions/wc-latamgateway-admin.php:63
 msgid "Support"
 msgstr "Suporte"
 
@@ -121,99 +121,102 @@ msgid "Currency not supported. Works only with Brazilian Real."
 msgstr "Moeda não suportada. Funciona apenas com real brasileiro."
 
 #. Name of the plugin
-#: includes/views/html-notice-missing-plugins.php:13
+#: includes/views/html-notice-missing-plugins.php:14
 msgid "Latam Gateway for WooCommerce"
 msgstr ""
 
-#: includes/views/html-notice-missing-plugins.php:13
+#: includes/views/html-notice-missing-plugins.php:14
 msgid ""
 "depends on one plugin to work. Please install and enable the following "
 "plugin:"
 msgstr ""
 "depende de um plugin para funcionar. Instale e ative o seguinte plugin:"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:32
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:31
 msgid "Latam Gateway"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:33
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:75
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:32
+msgid "Receive by credit card, deposit or boleto using Latam Gateway."
+msgstr ""
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:56
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:57
+msgid "Check to enable this form of payment."
+msgstr "Marque para ativar esta forma de pagamento."
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:63
+msgid "Checkout Title"
+msgstr "Titulo do Checkout"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:65
+msgid "This controls the title the user sees during checkout."
+msgstr "Isso controla o título que o usuário vê durante o checkout."
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:70
+msgid "Checkout Description"
+msgstr "Descrição do Checkout"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:72
+msgid "This controls the description the user sees during checkout."
+msgstr "Isso controla a descrição que o usuário vê durante o checkout."
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:74
 msgid "Pay by credit card, deposit or boleto using Latam Gateway."
 msgstr ""
 "Pague com cartão de crédito, depósito ou boleto usando a Latam Gateway."
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:57
-msgid "Enable/Disable"
-msgstr "Habilitar/Desabilitar"
-
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:58
-msgid "Check to enable this form of payment."
-msgstr "Marque para ativar esta forma de pagamento."
-
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:64
-msgid "Checkout Title"
-msgstr "Titulo do Checkout"
-
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:66
-msgid "This controls the title the user sees during checkout."
-msgstr "Isso controla o título que o usuário vê durante o checkout."
-
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:71
-msgid "Checkout Description"
-msgstr "Descrição do Checkout"
-
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:73
-msgid "This controls the description the user sees during checkout."
-msgstr "Isso controla a descrição que o usuário vê durante o checkout."
-
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:78
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:77
 msgid "Integration Settings"
 msgstr "Configurações de Integração"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:80
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:79
 msgid "Enter your credentials to process payments using Latam Gateway"
 msgstr ""
 "Insira suas credenciais para processar pagamentos usando o Latam Gateway"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:83
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:82
 msgid "Email"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:85
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:84
 msgid "Latam Gateway Registration Email"
 msgstr "Email de Registro na Latam Gateway"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:90
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:89
 msgid "Password"
 msgstr "Senha"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:92
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:91
 msgid "Latam Gateway Registration Password"
 msgstr "Senha de Registro na Latam Gateway"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:96
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:95
 msgid "Sandbox Environment"
 msgstr "Ambiente Sandbox"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:98
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:97
 msgid "Enable the Latam Gateway Testing"
 msgstr "Habilitar o teste para Latam Gateway "
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:99
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:98
 msgid "Latam Gateway Sandbox can be used to test the payments"
 msgstr "O Latam Gateway Sandbox pode ser usado para testar os pagamentos"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:103
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:102
 msgid "Account Key"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:105
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:104
 msgid "Enter your account key. Contact Latam Gateway Support for Account Key"
 msgstr ""
 "Digite a sua  Account Key. Entre em contato com o suporte da Latam Gateway "
 "para obter a  Account Key"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:112
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:111
 msgid ""
 "Enter your account key for sandbox. Contact Latam Gateway Support for "
 "Account Key"
@@ -221,69 +224,93 @@ msgstr ""
 "Digite a  Account Key para o sandbox. Entre em contato com o suporte da "
 "Latam Gateway para obter a  Account Key"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:116
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:115
 msgid "Payment Methods"
 msgstr "Métodos de Pagamento"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:118
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:117
 msgid "Select active payment methods at checkout"
 msgstr "Selecione métodos de pagamento ativos na finalização da compra"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:123
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:122
 msgid "Enable Credit Card for Redirect Checkout"
 msgstr "Habilitar Cartão de Credito para o Checkout"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:127
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:126
 msgid "Deposit"
 msgstr "Deposito"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:129
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:128
 msgid "Enable Deposit for Checkout"
 msgstr "Habilitar Deposito para o Checkout Transparente"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:133
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:132
 msgid "Boleto"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:135
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:134
 msgid "Enable Boleto for Transparente Checkout"
 msgstr "Habilitar Boleto para o Checkout Transparente"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:139
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:138
 msgid "Additional Fields"
 msgstr "Campos Adicionais"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:141
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:140
 msgid "Latam Gateway plugin needs some additional fields in checkout."
 msgstr ""
 "O plug-in Latam Gateway precisa de alguns campos adicionais no Checkout."
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:144
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:143
 msgid "Enabled Birth Field"
 msgstr "Ativar o Campo Data de Nascimento "
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:146
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:145
 msgid "Enable Birth Field in Checkout"
 msgstr "Ativa o campo \"Data de Nascimento\" no checkout"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:150
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:149
 msgid "Required Birth Field"
 msgstr "Campo Data de Nascimento deve ser Obrigatório"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:152
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:151
 msgid "Makes the Birth Field mandatory"
 msgstr "Torna obrigatório o preenchimento do campo \"Data de Nascimento\""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:156
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:155
+msgid "Order status"
+msgstr "Status do pedido"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:157
+msgid "Configure gateway behavior."
+msgstr "Configure o comportamento do gateway."
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:160
+msgid "Paid Orders"
+msgstr "Pedidos Pagos"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:163
+msgid "Paid orders will change to this status"
+msgstr "Os pedidos pagos mudarão para este status"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:165
+msgid "Processing"
+msgstr "Processando"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:166
+msgid "Completed"
+msgstr "Concluído"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:170
 msgid "Gateway Testing"
 msgstr "Teste de Gateway"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:161
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:163
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:175
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:177
 msgid "Enable Log"
 msgstr "Ativar Log"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:165
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:179
 #, php-format
 msgid ""
 "Logs plugin events through the <code>% s </code> file. Note: This may record "
@@ -294,47 +321,47 @@ msgstr ""
 "pode registrar informações pessoais. Recomendamos o uso apenas para fins de "
 "depuração e para excluir esses registros após a finalização."
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:182
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:195
 #, php-format
 msgid "Exception when calling list banks:\\r\\n %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:220
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:235
 #, php-format
 msgid "Payment process log for order ID: %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:223
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:238
 #, php-format
 msgid "Payment process, get data request: %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:248
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:266
 #, php-format
 msgid "Payment URL retrieved: %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:336
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:355
 #, php-format
 msgid "Payment process get transaction data: %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:339
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:358
 #, php-format
 msgid "Payment debug info for order: %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:342
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:361
 #, php-format
 msgid "Payment debug info for order itens: %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:345
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:364
 #, php-format
 msgid "Payment debug info for order customer: %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:353
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:372
 msgid ""
 "The buyer has initiated a transaction, but so far Latam Gateway has not "
 "received any payment information."
@@ -342,28 +369,33 @@ msgstr ""
 "O comprador iniciou uma transação, mas até agora o Latam Gateway não recebeu "
 "nenhuma informação de pagamento."
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:364
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:383
 msgid "Error getting payment URL. Try again!"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:387
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:407
 #, php-format
 msgid "Postback Headers:\\r\\n %s"
 msgstr ""
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:410
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:430
 msgid "LatamGateway Gateway received a valid notification URL"
 msgstr "O Latam Gateway recebeu um URL de notificação válido"
 
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:432
-msgid "A status update has been received. The new order status is: processing"
-msgstr ""
-"Uma atualização de status foi recebida. O novo status do pedido é: "
-"Processando"
-
-#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:435
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:451
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:469
 msgid "Payment completed"
 msgstr "Pagamento completo"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:458
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:468
+msgid "A status update has been received. The new order status is: cancelled"
+msgstr ""
+"Uma atualização de status foi recebida. O novo status do pedido é: cancelado"
+
+#: includes/gateway/methods/general/class-wc-latamgateway-gateway-method-general.php:459
+msgid "Payment Cancelled"
+msgstr ""
 
 #. Description of the plugin
 msgid "Take payments on CredtCard, Deposit and Boleto  using Latam Gateway."
